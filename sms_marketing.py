@@ -1,9 +1,9 @@
 from twilio.rest import Client
 
 # Twilio credentials
-account_sid = 'ACc8d42355377ff1c025a2ec4e99cae1fd'
-auth_token = '6bd3ce9bded4f68b970a38926455edaa'
-twilio_number = '+18509722162'
+account_sid = '{accountsid_no}'
+auth_token = '{token_num}'
+twilio_number = '+{generated_num}'
 
 # Initialize Twilio client
 client = Client(account_sid, auth_token)
@@ -16,7 +16,7 @@ Discover a world of exceptional service at Sri Vijaya Motors, located at Bethama
 - Sri Vijaya Motors"""
 
 # List of numbers to send messages to
-numbers = ['+919449668894','+919686450179','+919449749697','+919844811299']  # Add your numbers here
+numbers = ['number of our choice']  # Add your numbers here
 
 # Send messages
 for number in numbers:
